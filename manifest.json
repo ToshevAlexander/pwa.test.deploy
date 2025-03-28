@@ -1,0 +1,23 @@
+{
+    "name":"CertifyED-Hospitality",
+    "short_name":"CertEdHospitality",
+    "description":"Hospitality Simulation",
+    "start_url":"/",
+    "background_color": "#fff",
+    "theme_color":"#444",
+    "orientation": "landscape",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"assets/logo192.png",
+            "sizes":"192x171",
+            "type":"image/png",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"assets/logo512.png",
+            "sizes":"576x512",
+            "type":"image/png"
+        }
+    ]
+}
