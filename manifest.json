@@ -5,17 +5,16 @@
     "start_url":"/",
     "background_color": "#fff",
     "theme_color":"#444",
-    "orientation": "landscape",
     "display":"standalone",
     "icons":[
         {
-            "src":"./logo192.png",
+            "src":"assets/logo192.png",
             "sizes":"192x171",
             "type":"image/png",
             "purpose":"any maskable"
         },
         {
-            "src":"./logo512.png",
+            "src":"assets/logo512.png",
             "sizes":"576x512",
             "type":"image/png"
         }
