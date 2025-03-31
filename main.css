@@ -5587,7 +5587,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   src: url(d843ebd441aee68af6bf.eot);
-  src: url(d843ebd441aee68af6bf.eot?#iefix) format("embedded-opentype"), url(6466d43a9d932ab27fa2.woff2) format("woff2"), url(f768d9d30984828f5b05.woff) format("woff"), url(dad097c0b3029ddeac01.ttf) format("truetype"), url(e51f94325833b3925ceb.svg#fontawesome) format("svg"); }
+  src: url(d843ebd441aee68af6bf.eot?#iefix) format("embedded-opentype"), url(fa-solid-900.woff2) format("woff2"), url(f768d9d30984828f5b05.woff) format("woff"), url(dad097c0b3029ddeac01.ttf) format("truetype"), url(e51f94325833b3925ceb.svg#fontawesome) format("svg"); }
 
 .fa,
 .fas {
