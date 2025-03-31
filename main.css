@@ -5577,7 +5577,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   src: url(c99856688e0d0d7485d3.eot);
-  src: url(c99856688e0d0d7485d3.eot?#iefix) format("embedded-opentype"), url(a5687208e8af961cff4f.woff2) format("woff2"), url(95bb46c68de96827f859.woff) format("woff"), url(e8a8701bba52a0368949.ttf) format("truetype"), url(d9b0c83b7743e68612ae.svg#fontawesome) format("svg"); }
+  src: url(c99856688e0d0d7485d3.eot?#iefix) format("embedded-opentype"), url(fa-regular-400.woff2) format("woff2"), url(95bb46c68de96827f859.woff) format("woff"), url(e8a8701bba52a0368949.ttf) format("truetype"), url(d9b0c83b7743e68612ae.svg#fontawesome) format("svg"); }
 
 .far {
   font-family: 'Font Awesome 5 Pro';
