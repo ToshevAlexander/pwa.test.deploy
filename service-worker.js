@@ -1,4 +1,4 @@
-if(!self.define){let e,c={};const a=(a,d)=>(a=new URL(a+".js",d).href,c[a]||new Promise((c=>{if("document"in self){const e=document.createElement("script");e.src=a,e.onload=c,document.head.appendChild(e)}else e=a,importScripts(a),c()})).then((()=>{let e=c[a];if(!e)throw new Error(`Module ${a} didn’t register its module`);return e})));self.define=(d,f)=>{const b=e||("document"in self?document.currentScript.src:"")||location.href;if(c[b])return;let i={};const s=e=>a(e,b),o={module:{uri:b},exports:i,require:s};c[b]=Promise.all(d.map((e=>o[e]||s(e)))).then((e=>(f(...e),i)))}}define(["./workbox-1f84e78b"],(function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([
+if(!self.define){let e,c={};const a=(a,d)=>(a=new URL(a+".js",d).href,c[a]||new Promise((c=>{if("document"in self){const e=document.createElement("script");e.src=a,e.onload=c,document.head.appendChild(e)}else e=a,importScripts(a),c()})).then((()=>{let e=c[a];if(!e)throw new Error(`Module ${a} didn’t register its module`);return e})));self.define=(d,b)=>{const f=e||("document"in self?document.currentScript.src:"")||location.href;if(c[f])return;let i={};const s=e=>a(e,f),o={module:{uri:f},exports:i,require:s};c[f]=Promise.all(d.map((e=>o[e]||s(e)))).then((e=>(b(...e),i)))}}define(["./workbox-1f84e78b"],(function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/android-chrome-144x144.png",revision:"a6185bd6d416766708610dec6ed4c1b4"},
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/android-chrome-192x192.png",revision:"2ae2da055857931c6ceda546621ca76c"},
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/android-chrome-256x256.png",revision:"3b805e9c202dbf98f0919da1fec60337"},
@@ -68,7 +68,7 @@ if(!self.define){let e,c={};const a=(a,d)=>(a=new URL(a+".js",d).href,c[a]||new 
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/mstile-70x70.png",revision:"ce576cb75face0fb3ecfc7098c1af4ac"},
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/yandex-browser-50x50.png",revision:"6edae3e4012a1089a16be8d57afd6bbe"},
     {url:"icons-4f0344c9adfb2b594dcbd3ff5a752e37edcfbcc4c1b3936e4c1e23515dcbaae4/yandex-browser-manifest.json",revision:"dd7cc3bdce0d2bf142763b8081df671d"},
-    {url:"index.html",revision:"fad5b96f75f2f70dad07d6528cbe85b4"},
+    {url:"index.html",revision:"7fcbb9ad0890d51d0dbc8375aad55cb0"},
     {url:"ios/100.png",revision:"f7e44d3f63570d6c5e04a5ead71f63b2"},
     {url:"ios/1024.png",revision:"0a55d41102c9410a3dc8a1000469d8a0"},
     {url:"ios/114.png",revision:"1dd26ce6494e5918c24eaf39527eb87d"},
@@ -95,8 +95,8 @@ if(!self.define){let e,c={};const a=(a,d)=>(a=new URL(a+".js",d).href,c[a]||new 
     {url:"ios/76.png",revision:"66dd3977e2f0c61c98fa168cca63c089"},
     {url:"ios/80.png",revision:"5a20270cc77aace0ea6e1f36cce9172c"},
     {url:"ios/87.png",revision:"96150a4703360d1a9d4eef3f40986fea"},
-    {url:"main.b6ee390eab5458162c09.js",revision:null},
-    {url:"main.b6ee390eab5458162c09.js.LICENSE.txt",revision:"b8081f9a817951268464eb92c620843d"},
+    {url:"main.ce1332144e916e502b00.js",revision:null},
+    {url:"main.ce1332144e916e502b00.js.LICENSE.txt",revision:"b8081f9a817951268464eb92c620843d"},
     {url:"main.css",revision:"cd0c9ef1d750a1fbe42888ff3687a1b1"},
     {url:"manifest.json",revision:"c34b74bd7fc93bde01d84d08610c5c71"},
     {url:"oculus_quest_controllers.fbx",revision:"e712c033931910e086516e7f9fd529d7"},
